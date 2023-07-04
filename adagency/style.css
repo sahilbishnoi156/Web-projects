@@ -1,0 +1,258 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat";
+}
+
+#main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 8rem;
+}
+
+#header {
+    height: 95vh;
+    width: 100%;
+}
+
+#header-logo {
+    width: 100%;
+    /* position: absolute; */
+    padding: 2vw;
+    font-size: 2vw;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#navbar{
+    width: 100%;
+    background-color: #100D26;
+}
+#header-logo span {
+    font-weight: 900;
+}
+#header-logo #navbar-in ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5vw;
+}
+#header-logo #navbar-in ul li{
+    list-style-type: none;
+}
+#header-in {
+    background-image: url(assets/Background-Header.webp);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 2vw;
+}
+
+#header-img img {
+    height: 42vw;
+}
+
+#header-text {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    gap: 1.6vw;
+    width: 50%;
+}
+
+#heading-text {
+    font-weight: 900;
+    color: #fff;
+    font-size: 2vw;
+}
+
+#colored-text {
+    color: #fc3792;
+    font-weight: 700;
+    width: 80%;
+    font-size: 2vw;
+}
+
+#header-bottom-text {
+    color: #fff;
+    font-size: 1.5vw;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 1vw;
+}
+
+.speak-div {
+    height: 6rem;
+    width: 60%;
+    background-color: #b90edf;
+    border-radius: 80px;
+    padding: 1.7rem 2rem;
+    line-height: 1.5rem;
+    text-align: center;
+    margin-top: 3vw;
+    color: #fff;
+    transition: all 0.2s;
+}
+
+.speak-div strong {
+    font-size: 1.4rem;
+    font-weight: 900;
+}
+
+.speak-div p {
+    font-size: 0.8rem;
+    color: #cecdcd;
+}
+
+.speak-div:hover {
+    box-shadow: 3px 7px 18px #b90edf;
+    transform: translateY(-10%);
+}
+
+#stats-div {
+    height: 70vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#stats-text {
+    width: 45%;
+}
+
+#stats-img {
+    width: 35%;
+}
+
+#stats-img img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+#stats-text span {
+    display: block;
+    font-weight: 900;
+    font-size: 1.5vw;
+}
+
+#stats-text span:first-child {
+    font-size: 3vw;
+}
+
+#stats-text p {
+    font-size: 1.2vw;
+    margin-bottom: 2vw;
+}
+
+#speak-div-2 {
+    width: 70%;
+}
+
+#offer-div {
+    height: 100vh;
+    width: 100%;
+    background-image: url(assets/Background-Header-2.webp);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: #fff;
+}
+
+#offer-div span {
+    display: block;
+}
+
+#offer-1,
+#offer-2 {
+    width: 40%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    gap: 1.4vw;
+}
+
+#offer-1 span:first-child {
+    font-size: 2vw;
+}
+
+#offer-1 span:nth-child(2) {
+    text-transform: uppercase;
+    font-size: 4vw;
+    color: #fc3792;
+    font-weight: 900;
+}
+
+#speak-div-3 {
+    width: 70%;
+}
+
+#offer-2 span:first-child {
+    font-size: 1.4vw;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+#offer-2 span:nth-child(2) {
+    font-size: 2vw;
+}
+
+#offer-2 #service ul li {
+    list-style-type: none;
+    font-size: 1.4vw;
+    font-weight: 900;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin: 0 0 .5vw 0;
+}
+
+#offer-2 #service ul li::before {
+    position: relative;
+    content: "\e5cd";
+    /* Replace with the desired Google icon code */
+    font-family: "Material Icons";
+    color: red;
+    margin: 0 1vw 0 0;
+    font-size: 2vw;
+}
+#companies{
+    height: 50vh;
+    width: 100%;
+    background-image: url(assets/geometry.webp);
+    display: grid;
+    grid-template-columns: repeat(3, minmax(30%,1fr));
+}
+#companies-heading{
+    grid-column-start: 1;
+    grid-column-end:4;
+    font-size: 4vw;
+    text-align: center;
+    font-weight: 900;
+    color: #201652;
+}
+#companies img{
+    -webkit-filter: grayscale(40);
+    height: 30%;
+    transition: all .1s;
+}
+#companies img:hover{
+    -webkit-filter: grayscale(0);
+}
+.company{
+    text-align: center;
+}

@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-image: url(../images/welcome.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Bebas Neue', cursive;
+}
+div.intro-div{
+    text-align: center;
+    line-height: 3.5rem;
+}
+h1{
+    animation: spawner 2s ease-in-out;
+    font-size: 5rem;
+    color: rgba(0, 0, 0, 0.697);
+    letter-spacing: 1rem;
+    white-space: nowrap;
+}
+p{
+    font-size: 1.2rem;
+    color: #ffffff;
+    letter-spacing: 5px;
+}
+button{
+    color: #fff;
+    text-transform:uppercase;
+    background-color: rgba(255, 161, 85, 0);
+    font-size: 1.2rem;
+    padding: 0.6rem 1.2rem 0.6rem 1.2rem;
+    border: 2px solid white;
+    border-radius: 3.2rem;
+    letter-spacing: 1.5px;
+    transition: letter-spacing 0.5s ,background 0.5s ease-in-out;
+}
+button:hover{
+    letter-spacing: 3px;
+    box-shadow: 2px 2px 15px black;
+    color: rgba(61, 61, 61, 0.771);
+    background-color:  rgba(255, 255, 255, 0.923);
+    cursor: pointer;
+}
+@keyframes spawner{
+    0%{
+        font-size: 85rem;
+        color: transparent;
+    }
+    100%{
+        font-size: 5rem;
+        color: rgba(0, 0, 0, 0.697);
+    }
+}

@@ -1,0 +1,78 @@
+body{
+    background-image:url(https://png.pngtree.com/thumb_back/fh260/back_our/20190620/ourmid/pngtree-finance-app-page-geometric-background-banner-image_157396.jpg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: cursive;
+}
+#login{
+    padding-top: 12rem;
+    padding-left: 50rem;
+    position: relative;
+}
+h1{
+    font-size: 3.6rem;
+    padding-left: 9rem;
+    margin-bottom: 0.3rem;
+    color: white;
+    left: 1rem;
+-webkit-animation: slideIn 2s forwards;
+-moz-animation: slideIn 1.8s forwards;
+animation: slideIn 1.8s forwards;
+}
+h1+p{
+    padding-right: 2rem;
+    text-align: center;
+    margin-top: 0;
+    color: white;
+    left: 1rem;
+-webkit-animation: slideIn 2s forwards;
+-moz-animation: slideIn 2s forwards;
+animation: slideIn 2s forwards;
+}
+h1+p::first-line{
+    letter-spacing: 0.1rem;
+}
+label button{
+    border: 0.12rem solid rgb(255, 255, 255);
+    background-color: rgba(74, 187, 231, 0);
+    border-radius: 2rem;
+    padding-top: 0.2rem;
+    padding-bottom: 0.2rem;
+    padding-left: 2rem;
+    padding-right :2rem;
+    color: white;
+}
+label{
+    padding-left: 19rem;
+}
+label button:hover{
+    box-shadow: 0.1rem 0.1rem 0.8rem rgb(51, 63, 65);
+}
+button a{
+    text-decoration: none;
+    color: white;
+}
+@-webkit-keyframes slideIn {
+0% {
+transform: translateX(-900px);
+}
+100% {
+transform: translateX(0);
+}
+}
+@-moz-keyframes slideIn {
+0% {
+transform: translateX(-900px);
+}
+100% {
+transform: translateX(0);
+}
+}
+@keyframes slideIn {
+0% {
+transform: translateX(-900px);
+}
+100% {
+transform: translateX(0);
+}
+}

@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    scroll-behavior: smooth;
     font-family: "Montserrat";
 }
 
@@ -39,10 +40,24 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 5vw;
+    gap: 3vw;
 }
 #header-logo #navbar-in ul li{
+    font-size: 1.4rem;
     list-style-type: none;
+    border: 2px solid #fff;
+    border-radius: 40px;
+    padding: .5rem 1rem;
+}
+#header-logo #navbar-in ul li a{
+    text-decoration: none;
+    color: #fff;
+    height: 100%;
+    width: 100%;
+}
+#header-logo #navbar-in ul li:hover{
+    box-shadow: 3px 2px 15px white;
+    cursor: pointer;
 }
 #header-in {
     background-image: url(assets/Background-Header.webp);
@@ -102,6 +117,7 @@
     margin-top: 3vw;
     color: #fff;
     transition: all 0.2s;
+    cursor: pointer;
 }
 
 .speak-div strong {
@@ -255,4 +271,8 @@
 }
 .company{
     text-align: center;
+}
+.company img:hover{
+    cursor: pointer;
+    transform: scale(1.1);
 }

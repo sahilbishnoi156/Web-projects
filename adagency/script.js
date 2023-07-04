@@ -62,8 +62,8 @@ gsap.from("#about-team, #team-div",{
     scrollTrigger:{
         trigger:"#team-div",
         scroller:"body",
-        start:"top 70%",
-        end:"top 55%",
+        start:"top 85%",
+        end:"top 75%",
         scrub:2
     }
 });
@@ -77,8 +77,8 @@ gsap.from(".team-persons",{
     scrollTrigger:{
         trigger:"#team-members",
         scroller:"body",
-        start:"top 70%",
-        end:"top 55%",
+        start:"top 85%",
+        end:"top 75%",
         scrub:2
     }
 });
@@ -89,8 +89,8 @@ gsap.from("#demo-call, #section-1, #section-2, #section-3",{
     scrollTrigger:{
         trigger:"#demo-call",
         scroller:"body",
-        start:"top 70%",
-        end:"top 55%",
+        start:"top 85%",
+        end:"top 80%",
         scrub:2
     }
 });
@@ -113,8 +113,8 @@ gsap.from("#footer, #footer-content-1, #footer-content-2",{
     scrollTrigger:{
         trigger:"#footer",
         scroller:"body",
-        start:"top 60%",
-        end:"top 45%",
+        start:"top 90%",
+        end:"top 95%",
         scrub:2
     }
 });

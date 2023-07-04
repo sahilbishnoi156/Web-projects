@@ -271,6 +271,9 @@
     filter: grayscale(0);
     -webkit-filter: grayscale(0);
 }
+#companies-head{
+    width: 100%;
+}
 .company{
     text-align: center;
 }
